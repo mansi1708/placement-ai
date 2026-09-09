@@ -82,7 +82,7 @@ with tab1:
                     str(m["n_train"]), str(m["n_test"]),
                     "Random Forest (200 trees, max_depth=12)"],
     })
-    st.dataframe(summary, use_container_width=True, hide_index=True)
+   st.table(summary)
 
 # ── Tab 2: Placement Trends ────────────────────────────────────────────────────
 with tab2:
